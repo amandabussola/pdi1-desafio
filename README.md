@@ -1,9 +1,5 @@
-# desafiobussula
-Desafio Bússola
+# Vue 3 + TypeScript + Vite
 
-Link do Figma com as telas de responsividade:
-https://www.figma.com/design/KoZhQNubfR6xQrgdbh5Muf/Teste-B%C3%BAssola---Amanda-de-Oliveira-Spitzner?node-id=0-1&t=0pdb7FvXsAuapC8u-1
-No Figma, fiz alguns comentários de estilo, mas a programação foi feita com fidelidade à tela recebida. 
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Utilizado javascript apenas para usar o toggle do menu corretamente, e utilizar o menu sobrepondo os conteúdos na responsividade de tablet e celular.
-O restante foi feito sem uso de javascript conforme proposto no desafio. 
+Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
