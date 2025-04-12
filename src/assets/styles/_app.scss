@@ -1,0 +1,14 @@
+.logo {
+    height: $logout-height;
+    padding: $logo-padding-normal;
+    will-change: filter;
+    transition: $logo-transition;
+
+    &:hover {
+        filter: $logo-glow-default;
+    }
+
+    &:vue:hover {
+        filter: d$logo-glow-vue;
+    }
+}
