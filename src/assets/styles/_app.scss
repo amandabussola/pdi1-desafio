@@ -8,7 +8,7 @@
         filter: $logo-glow-default;
     }
 
-    &:vue:hover {
-        filter: d$logo-glow-vue;
+    &.vue:hover {
+        filter: $logo-glow-vue;
     }
 }

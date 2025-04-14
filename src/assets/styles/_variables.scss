@@ -9,12 +9,13 @@ $primary-text: #2e3f73;
 $gray-text: #777986;
 $white: #fff;
 
-$font-family-base: 'Nunito', sans-serif;
+$font-stack: 'Nunito', sans-serif;
+$font-family-base: $font-stack;
 $font-size-heading: 19.92px;
-$font-size-pragraph: 15.93px;
+$font-size-paragraph: 15.93px;
 $font-size-sm: 14px;
-$lin-height-sm: 21px;
-$nav-item_width: 191px;
+$line-height-sm: 21px;
+$nav-item-width: 191px;
 
 $spacing-xs: 7px;
 $spacing-sm: 8px;
@@ -22,7 +23,7 @@ $spacing-md: 20px;
 $spacing-lg: 40px;
 $spacing-sm-md: 10px;
 $spacing-md-lg: 20px;
-$logout-height: 26px;
+
 
 $sidebar-width: 273px;
 $profile-img-width: 57.49px;
@@ -59,7 +60,7 @@ $font-size-md: 16px;
 $spacing-xxs: 5px;
 
 $font-weight-medium: 500;
-$font-weight-rgular: 400; 
+$font-weight-regular: 400; 
 
 $gap-cards: 20px;
 $margin-bottom-cards: 60px;
@@ -73,7 +74,7 @@ $spacing-card-text: 14.21px;
 $card-font-size-sm: 13px;
 $card-font-size-lg: 20px;
 
-$card-padding-heading: 9.44px 18.87pc;
+$card-padding-heading: 9.44px 18.87px;
 $card-border-bottom: 1px solid #e1e1e1;
 
 $card-img-width: 81.08px;
@@ -105,9 +106,31 @@ $notif-border-blue: solid 8px #D4E9FF;
 $notif-border-green: solid 8px #B7E7DA;
 
 $logout-height: 6em;
+$logout-heigh-px: 26px;
 $logo-padding-normal: 1.5em;
 $logo-transition: filter 300ms;
 $logo-glow-default: drop-shadow(0 0  2em #646cffaa);
 $logo-glow-vue: drop-shadow(0 0  2em #42b883aa);
 
-$font-stack: 'Nunito', sand-serif;
+$font-stack: 'Nunito', sans-serif;
+
+// === Responsividade ===
+
+$sidebar-padding-mobile: 50px 90px 0;
+$logo-margin-top-tablet: 60px;
+$logo-margin-top-mobile: 90px;
+$logo-margin-bottom-mobile: 20px;
+$toggle-icon-left-mobile: 321px;
+$card-width-tablet: 214px;
+$toggle-icon-height: 16px;
+$toggle-icon-width: 32px;
+
+// === Tipografia responsiva
+$font-size-xs: 14px;
+$font-size-xxs: 12px;
+$font-size-sm-md: 16px;
+$font-size-sm-header: 20px;
+
+// === Espaçamentos reutilizados
+$notif-card-padding-bottom: 15px;
+$notif-margin-bottom: 20px;

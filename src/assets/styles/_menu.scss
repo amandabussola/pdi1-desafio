@@ -1,3 +1,5 @@
+// === Sidebar ===
+
 .sidebar {
     width: 237px;
     padding: 50px 23.5px;
@@ -20,6 +22,8 @@
     display: none;
 }
 
+// === Profile ===
+
 .profile {
     text-align: center;
     margin-bottom: $spacing-lg;
@@ -34,7 +38,7 @@
     h2 {
         color: $primary-color;
         margin: 0;
-        font-size: $font-size-pragraph;
+        font-size: $font-size-paragraph;
         font-weight: 600;
         margin-top: $spacing-sm;
     }
@@ -42,7 +46,7 @@
     p {
         color: $primary-text;
         margin: 0;
-        font-size: $font-size-pragraph;
+        font-size: $font-size-paragraph;
         font-weight: 600;
         margin-top: $spacing-sm;
     }
@@ -64,12 +68,13 @@
     }
 }
 
+// === Navegação ===
 
 nav {
     margin-bottom: $spacing-lg;
 
 
-    nav ul {
+    ul {
         list-style: none;
         padding: 0;
         margin: 0;
@@ -80,7 +85,7 @@ nav {
             display: flex;
             align-items: center;
             flex-direction: column;
-            width: $nav-item_width;
+            width: $nav-item-width;
 
             a {
                 text-decoration: none;
@@ -92,7 +97,7 @@ nav {
                 font-weight: 700;
                 font-size: $font-size-sm;
                 width: 100%;
-                line-height: $lin-height-sm;
+                line-height: $line-height-sm;
 
                 &.active {
                     font-weight: 800;
@@ -124,6 +129,8 @@ ul {
     }
 }
 
+// === Submenu ===
+
 .submenu {
     align-items: start;
     margin-left: $submenu-indent;
@@ -150,6 +157,8 @@ ul {
     }
 }
 
+// === Logout ===
+
 .logout-container {
     border-top: $border-light;
     padding-top: $spacing-sm-md;
@@ -174,6 +183,8 @@ ul {
         margin-right: $spacing-md-lg;
     }
 }
+
+// === Logo ===
 
 .logo {
     width: $logo-width;

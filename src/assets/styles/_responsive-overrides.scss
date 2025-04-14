@@ -1,0 +1,130 @@
+// === Tablet (até 1024px)
+
+@include respond-to(lg) {
+    .menu-mobile {
+        display: block;
+        position: absolute;
+        margin-left: $page-padding-x;
+        margin-top: $page-padding-x;
+        z-index: 99;
+    }
+
+    .sidebar {
+        display: none;
+
+        &.open {
+            display: block;
+            z-index: 1;
+            height: calc(100vh - 7.5vh);
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .open+.content {
+        margin-left: -284px;
+    }
+
+    .cards {
+        margin-bottom: 40px;
+    }
+
+    .card-content {
+        display: block;
+        text-align: center;
+    }
+
+    .card-description {
+        width: $card-width-tablet;
+        text-align: left;
+        margin-left: calc(50% - #{$card-width-tablet / 2});
+        margin-top: $page-padding-x;
+
+        h3 {
+            font-size: $font-size-sm-md;
+        }
+    }
+
+    .notif-text,
+    .notif-content>p {
+        height: unset;
+    }
+
+    .notif-text p {
+        display: none;
+    }
+
+    .notifications .card {
+        height: unset;
+        padding-bottom: $notif-card-padding-bottom;
+    }
+
+    .content .card:first-child {
+        margin-bottom: $notif-margin-bottom;
+    }
+
+    .logo {
+        margin-top: $logo-margin-top-tablet;
+    }
+}
+
+// === Mobile (até 768px)
+@include respond-to(md) {
+    .sidebar {
+        width: 100%;
+        padding: $sidebar-padding-mobile;
+        height: calc(100vh - 6vh);
+        z-index: 1;
+        overflow: hidden;
+
+        &.open+.content {
+            display: none;
+        }
+    }
+
+    .logo {
+        margin-top: $logo-margin-top-mobile;
+        margin-bottom: $logo-margin-bottom-mobile;
+    }
+
+    .profile a:first-child img {
+        height: $toggle-icon-height;
+        width: $toggle-icon-width;
+        top: 38px;
+        left: $toggle-icon-left-mobile;
+    }
+
+    .header {
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        h1 {
+            font-size: $font-size-sm-header;
+        }
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card-content {
+        display: flex;
+    }
+
+    .card-description {
+        width: 100%;
+        margin-left: unset;
+        margin-top: 0;
+
+        h3 {
+            font-size: $font-size-xs;
+        }
+
+        a,
+        & {
+            font-size: $font-size-xxs;
+        }
+    }
+}
