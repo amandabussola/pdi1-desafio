@@ -9,27 +9,7 @@
 @import './base';
 
 
-:root {
-    --font-family: 'Nunito', sans-serif;
-    --font-size-base: 16px;
 
-    --color-primary: #0057ff;
-    --color-secondary: #f0f2f5;
-    --color-accent: #ffb703;
-    --color-danger: #ef476f;
-    --color-success: #ffd166;
-    --color-warning: #ffd166;
-    --color-dark: #1a1a1a;
-    --color-light: #ffffff;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 
 body {
@@ -38,12 +18,12 @@ body {
     color: var(--color-dark);
     background-color: var(--color-light);
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
+    
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: inherit; //não usar inherit
 } 
 
 

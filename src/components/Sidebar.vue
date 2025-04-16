@@ -2,6 +2,7 @@
 
 <aside class="sidebar">
     <div>
+     
       <div class="profile">
         <a href="#"><img :src="expandIcon" alt="Expandir" /></a>
         <img :src="profileIcon" alt="Foto de perfil" />
@@ -67,6 +68,3 @@ import organizationsIcon from '@/assets/img/icons/organizations.svg';
 import findoutIcon from '@/assets/img/icons/findout.svg';
 import logoutIcon from '@/assets/img/icons/logout.svg';
 </script>
-
-<style scoped lang =scss>
-</style>
