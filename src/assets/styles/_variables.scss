@@ -9,8 +9,7 @@ $primary-text: #2e3f73;
 $gray-text: #777986;
 $white: #fff;
 
-$font-stack: 'Nunito', sans-serif;
-$font-family-base: $font-stack;
+$font-family-base: 'Nunito', sans-serif;
 $font-size-heading: 19.92px;
 $font-size-paragraph: 15.93px;
 $font-size-sm: 14px;
@@ -134,3 +133,18 @@ $font-size-sm-header: 20px;
 // === Espaçamentos reutilizados
 $notif-card-padding-bottom: 15px;
 $notif-margin-bottom: 20px;
+
+// verificar quais variaveis tem 
+/*:root {
+    --font-family: 'Nunito', sans-serif;
+    --font-size-base: 16px;
+
+    --color-primary: #0057ff;
+    --color-secondary: #f0f2f5;
+    --color-accent: #ffb703;
+    --color-danger: #ef476f;
+    --color-success: #ffd166;
+    --color-warning: #ffd166;
+    --color-dark: #1a1a1a;
+    --color-light: #ffffff;
+}*/
